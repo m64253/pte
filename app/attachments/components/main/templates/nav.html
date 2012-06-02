@@ -1,0 +1,61 @@
+<div class="navbar navbar-fixed-top"><div class="navbar-inner">
+	<div class="container">
+		<a class="brand" href="#">Pick the EURO’s</a>
+		<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</a>
+		<div class="nav-collapse">
+			<ul class="nav">
+				<li><a href="#users">Users</a></li>
+				<li class="dropdown">
+					<a href="#matches/all" class="dropdown-toggle" data-toggle="dropdown">
+						Matches
+						<b class="caret"></b>
+					</a>
+					<ul class="dropdown-menu">
+						<li class="all"><a href="#matches">All</a></li>
+						<li class="divider"></li>
+						<li class="a"><a href="#matches/a">Group A</a></li>
+						<li class="b"><a href="#matches/b">Group B</a></li>
+						<li class="c"><a href="#matches/c">Group C</a></li>
+						<li class="d"><a href="#matches/d">Group D</a></li>
+						<li class="quarter"><a href="#matches/quarter">Quarter finals</a></li>
+						<li class="semi"><a href="#matches/semi">Semi finals</a></li>
+						<li class="final"><a href="#matches/final">Teh final!</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#groups" class="dropdown-toggle" data-toggle="dropdown">Group<b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li class="a"><a href="#group/a">Group A</a></li>
+						<li class="b"><a href="#group/b">Group B</a></li>
+						<li class="c"><a href="#group/c">Group C</a></li>
+						<li class="d"><a href="#group/d">Group D</a></li>
+					</ul>
+				</li>
+				<li><a href="#quarter-finals">Quarters</a></li>
+				<li><a href="#semi-finals">Semis</a></li>
+				<li><a href="#final">Final</a></li>
+			</ul>
+		<% if (session.name) { %>
+			<ul class="nav pull-right">
+				<li><a href="#logout">Logout</a></li>
+			</ul>
+			<p class="navbar-text pull-right"><a href="#user/<%= session.name %>"><%= session.name %></a></p>
+		<% } else { %>
+			<ul class="nav pull-right">
+				<li><a href="#login">Login</a></li>
+				<li><a href="#register">Register</a></li>
+			</ul>
+		<% } %>
+		</div>
+	</div>
+	<% if (!session.isSecure) { %>
+	<div class="alert alert-block">
+		<a class="close" data-dismiss="alert">&times;</a>
+		Please use the "secure" site at <a href="<%= secureHost %>"><%= secureHost %></a> to login.
+	</div>
+	<% } %>
+</div>

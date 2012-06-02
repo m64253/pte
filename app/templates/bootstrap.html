@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Pick the Euros</title>
+	<link rel="stylesheet" type="text/css" href='assets/css/luckiest-guy.css' />
+<% _.forEach(cssFiles, function (file) { %>
+	<link rel="stylesheet" type="text/css" href="<%= file %>" />
+<% }); %>
+</head>
+<body>
+<% _.forEach(jsFiles, function (file) { %>
+<script src="<%= file %>"></script>
+<% }); %>
+<script>
+APP.set(<%= JSON.stringify(config) %>);
+<% _.forEach(data, function (data, name) { %>
+APP.register('data.<%= name %>', <%= JSON.stringify(data) %>);
+<% }); %>
+<% _.forEach(components, function (component, name) { %>
+APP.register('<%= name %>', <%= component %>);
+<% }); %>
+APP.use('main');
+</script>
+</body>
+</html>

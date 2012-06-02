@@ -1,0 +1,22 @@
+<thead>
+	<tr>
+		<th class="num">#</th>
+		<th class="name">team</th>
+		<th class="goals">+</th>
+		<th class="admitted">-</th>
+		<th class="diff">+/-</th>
+		<th class="points">P</th>
+	</tr>
+</thead>
+<tbody>
+<% _.forEach(standings, function (team, i) { %>
+	<tr class="standing-<%= (i + 1) %>">
+		<td class="num"><%= (i + 1) %></td>
+		<td class="name"><div class="flag flag-<%= team.team.toLowerCase() %>"><%= team.name %></div></td>
+		<td class="goals"><%= team.goals %></td>
+		<td class="admitted"><%= team.admitted %></td>
+		<td class="diff"><%= team.goals - team.admitted %></td>
+		<td class="points"><%= team.points %></td>
+	</tr>
+<% }) %>
+</tbody>

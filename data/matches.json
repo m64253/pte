@@ -1,0 +1,460 @@
+{
+	"docs": [
+		{
+			"type"		: "match",
+			"group"		: "A",
+			"date"		: "8 June 2012 18:00 UTC+02:00",
+			"team1"		: "POL",
+			"name1"		: "Poland",
+			"match"		: 1,
+			"team2"		: "GRE",
+			"name2"		: "Greece",
+			"goals1"	: 0,
+			"goals2"	: 0,
+			"winner"	: null,
+			"stadium"	: "National Stadium, Warsaw"
+		},
+		{
+			"type"		: "match",
+			"group"		: "A",
+			"date"		: "8 June 2012 20:45 UTC+02:00",
+			"team1"		: "RUS",
+			"name1"		: "Russia",
+			"match"		: 2,
+			"team2"		: "CZE",
+			"name2"		: "Czech Republic",
+			"goals1"	: 0,
+			"goals2"	: 0,
+			"winner"	: null,
+			"stadium"	: "Stadion Miejski, Wrocław"
+		},
+		{
+			"type"		: "match",
+			"group"		: "A",
+			"date"		: "12 June 2012 18:00 UTC+02:00",
+			"team1"		: "GRE",
+			"name1"		: "Greece",
+			"match"		: 9,
+			"team2"		: "CZE",
+			"name2"		: "Czech Republic",
+			"goals2"	: 0,
+			"winner"	: null,
+			"stadium"	: "Stadion Miejski, Wrocław"
+		},
+		{
+			"type"		: "match",
+			"group"		: "A",
+			"date"		: "12 June 2012 20:45 UTC+02:00",
+			"team1"		: "POL",
+			"name1"		: "Poland",
+			"match"		: 10,
+			"team2"		: "RUS",
+			"name2"		: "Russia",
+			"goals1"	: 0,
+			"goals2"	: 0,
+			"winner"	: null,
+			"stadium"	: "National Stadium, Warsaw"
+		},
+		{
+			"type"		: "match",
+			"group"		: "A",
+			"date"		: "16 June 2012 20:45 UTC+02:00",
+			"team1"		: "CZE",
+			"name1"		: "Czech Republic",
+			"match"		: 17,
+			"team2"		: "POL",
+			"name2"		: "Poland",
+			"goals1"	: 0,
+			"goals2"	: 0,
+			"winner"	: null,
+			"stadium"	: "Stadion Miejski, Wrocław"
+		},
+		{
+			"type"		: "match",
+			"group"		: "A",
+			"date"		: "16 June 2012 20:45 UTC+02:00",
+			"team1"		: "GRE",
+			"name1"		: "Greece",
+			"match"		: 18,
+			"team2"		: "RUS",
+			"name2"		: "Russia",
+			"goals1"	: 0,
+			"goals2"	: 0,
+			"winner"	: null,
+			"stadium"	: "National Stadium, Warsaw"
+		},
+
+
+
+
+		{
+			"type"		: "match",
+			"group"		: "B",
+			"date"		: "9 June 2012 19:00 UTC+03:00",
+			"team1"		: "NED",
+			"name1"		: "Netherlands",
+			"match"		: 3,
+			"team2"		: "DEN",
+			"name2"		: "Denmark",
+			"goals1"	: 0,
+			"goals2"	: 0,
+			"winner"	: null,
+			"stadium"	: "Metalist Stadium, Kharkiv"
+		},
+		{
+			"type"		: "match",
+			"group"		: "B",
+			"date"		: "9 June 2012 21:45 UTC+03:00",
+			"team1"		: "GER",
+			"name1"		: "Germany",
+			"match"		: 4,
+			"team2"		: "POR",
+			"name2"		: "Portugal",
+			"goals1"	: 0,
+			"goals2"	: 0,
+			"winner"	: null,
+			"stadium"	: "Arena Lviv, Lviv"
+		},
+		{
+			"type"		: "match",
+			"group"		: "B",
+			"date"		: "13 June 2012 19:00 UTC+03:00",
+			"team1"		: "DEN",
+			"name1"		: "Denmark",
+			"match"		: 11,
+			"team2"		: "POR",
+			"name2"		: "Portugal",
+			"goals1"	: 0,
+			"goals2"	: 0,
+			"winner"	: null,
+			"stadium"	: "Arena Lviv, Lviv"
+		},
+		{
+			"type"		: "match",
+			"group"		: "B",
+			"date"		: "13 June 2012 21:45 UTC+03:00",
+			"team1"		: "NED",
+			"name1"		: "Netherlands",
+			"match"		: 12,
+			"team2"		: "GER",
+			"name2"		: "Germany",
+			"goals1"	: 0,
+			"goals2"	: 0,
+			"winner"	: null,
+			"stadium"	: "Metalist Stadium, Kharkiv"
+		},
+		{
+			"type"		: "match",
+			"group"		: "B",
+			"date"		: "17 June 2012 21:45 UTC+03:00",
+			"team1"		: "POR",
+			"name1"		: "Portugal",
+			"match"		: 19,
+			"team2"		: "NED",
+			"name2"		: "Netherlands",
+			"goals1"	: 0,
+			"goals2"	: 0,
+			"winner"	: null,
+			"stadium"	: "Metalist Stadium, Kharkiv"
+		},
+		{
+			"type"		: "match",
+			"group"		: "B",
+			"date"		: "17 June 2012 21:45 UTC+03:00",
+			"team1"		: "DEN",
+			"name1"		: "Denmark",
+			"match"		: 20,
+			"team2"		: "GER",
+			"name2"		: "Germany",
+			"goals1"	: 0,
+			"goals2"	: 0,
+			"winner"	: null,
+			"stadium"	: "Arena Lviv, Lviv"
+		},
+
+
+
+
+		{
+			"group"		: "C",
+			"date"		: "10 June 2012 18:00 UTC+02:00",
+			"team1"		: "ESP",
+			"name1"		: "Spain",
+			"match"		: 5,
+			"team2"		: "ITA",
+			"name2"		: "Italy",
+			"goals1"	: 0,
+			"goals2"	: 0,
+			"winner"	: null,
+			"stadium"	: "PGE Arena, Gdańsk"
+		},
+		{
+			"type"		: "match",
+			"group"		: "C",
+			"date"		: "10 June 2012 20:45 UTC+02:00",
+			"team1"		: "IRL",
+			"name1"		: "Ireland",
+			"match"		: 6,
+			"team2"		: "CRO",
+			"name2"		: "Croatia",
+			"goals1"	: 0,
+			"goals2"	: 0,
+			"winner"	: null,
+			"stadium"	: "Stadion Miejski, Poznań"
+		},
+		{
+			"type"		: "match",
+			"group"		: "C",
+			"date"		: "14 June 2012 18:00 UTC+02:00",
+			"team1"		: "ITA",
+			"name1"		: "Italy",
+			"match"		: 13,
+			"team2"		: "CRO",
+			"name2"		: "Croatia",
+			"goals1"	: 0,
+			"goals2"	: 0,
+			"winner"	: null,
+			"stadium"	: "Stadion Miejski, Poznań"
+		},
+		{
+			"type"		: "match",
+			"group"		: "C",
+			"date"		: "14 June 2012 20:45 UTC+02:00",
+			"team1"		: "ESP",
+			"name1"		: "Spain",
+			"match"		: 14,
+			"team2"		: "IRL",
+			"name2"		: "Ireland",
+			"goals1"	: 0,
+			"goals2"	: 0,
+			"winner"	: null,
+			"stadium"	: "PGE Arena, Gdańsk"
+		},
+		{
+			"type"		: "match",
+			"group"		: "C",
+			"date"		: "18 June 2012 20:45 UTC+02:00",
+			"team1"		: "CRO",
+			"name1"		: "Croatia",
+			"match"		: 21,
+			"team2"		: "ESP",
+			"name2"		: "Spain",
+			"goals1"	: 0,
+			"goals2"	: 0,
+			"winner"	: null,
+			"stadium"	: "PGE Arena, Gdańsk"
+		},
+		{
+			"type"		: "match",
+			"group"		: "C",
+			"date"		: "18 June 2012 20:45 UTC+02:00",
+			"team1"		: "ITA",
+			"name1"		: "Italy",
+			"match"		: 22,
+			"team2"		: "IRL",
+			"name2"		: "Ireland",
+			"goals1"	: 0,
+			"goals2"	: 0,
+			"winner"	: null,
+			"stadium"	: "Stadion Miejski ,Poznań"
+		},
+
+
+
+
+		{
+			"type"		: "match",
+			"group"		: "D",
+			"date"		: "11 June 2012 19:00 UTC+03:00",
+			"team1"		: "FRA",
+			"name1"		: "France",
+			"match"		: 7,
+			"team2"		: "ENG",
+			"name2"		: "England",
+			"goals1"	: 0,
+			"goals2"	: 0,
+			"winner"	: null,
+			"stadium"	: "Donbass Arena, Donetsk"
+		},
+		{
+			"type"		: "match",
+			"group"		: "D",
+			"date"		: "11 June 2012 21:45 UTC+03:00",
+			"team1"		: "UKR",
+			"name1"		: "Ukraine",
+			"match"		: 8,
+			"team2"		: "SWE",
+			"name2"		: "Sweden",
+			"goals1"	: 0,
+			"goals2"	: 0,
+			"winner"	: null,
+			"stadium"	: "Olimpiysky National Sports Complex, Kiev"
+		},
+		{
+			"type"		: "match",
+			"group"		: "D",
+			"date"		: "15 June 2012 19:00 UTC+03:00",
+			"team1"		: "UKR",
+			"name1"		: "Ukraine",
+			"match"		: 16,
+			"team2"		: "FRA",
+			"name2"		: "France",
+			"goals1"	: 0,
+			"goals2"	: 0,
+			"winner"	: null,
+			"stadium"	: "Donbass Arena, Donetsk"
+		},
+		{
+			"type"		: "match",
+			"group"		: "D",
+			"date"		: "15 June 2012 21:45 UTC+03:00",
+			"team1"		: "SWE",
+			"name1"		: "Sweden",
+			"match"		: 15,
+			"team2"		: "ENG",
+			"name2"		: "England",
+			"goals1"	: 0,
+			"goals2"	: 0,
+			"winner"	: null,
+			"stadium"	: "Olimpiysky National Sports Complex, Kiev"
+		},
+		{
+			"type"		: "match",
+			"group"		: "D",
+			"date"		: "19 June 2012 21:45 UTC+03:00",
+			"team1"		: "ENG",
+			"name1"		: "England",
+			"match"		: 23,
+			"team2"		: "UKR",
+			"name2"		: "Ukraine",
+			"goals1"	: 0,
+			"goals2"	: 0,
+			"winner"	: null,
+			"stadium"	: "Donbass Arena, Donetsk"
+		},
+		{
+			"type"		: "match",
+			"group"		: "D",
+			"date"		: "19 June 2012 21:45 UTC+03:00",
+			"team1"		: "SWE",
+			"name1"		: "Sweden",
+			"match"		: 24,
+			"team2"		: "FRA",
+			"name2"		: "France",
+			"goals1"	: 0,
+			"goals2"	: 0,
+			"winner"	: null,
+			"stadium"	: "Olimpiysky National Sports Complex, Kiev"
+		},
+
+
+
+
+		{
+			"type"		: "match",
+			"group"		: "Q",
+			"date"		: "21 June 2012 20:45 UTC+02:00",
+			"team1"		: "1 group A",
+			"name1"		: "1 group A",
+			"match"		: 25,
+			"team2"		: "2 group B",
+			"name2"		: "2 group B",
+			"goals1"	: 0,
+			"goals2"	: 0,
+			"winner"	: null,
+			"stadium"	: "National Stadium, Warsaw"
+		},
+		{
+			"type"		: "match",
+			"group"		: "Q",
+			"date"		: "22 June 2012 20:45 UTC+02:00",
+			"team1"		: "1 group B",
+			"name1"		: "1 group B",
+			"match"		: 26,
+			"team2"		: "2 group A",
+			"name2"		: "2 group A",
+			"goals1"	: 0,
+			"goals2"	: 0,
+			"winner"	: null,
+			"stadium"	: "PGE Arena, Gdańsk"
+		},
+		{
+			"type"		: "match",
+			"group"		: "Q",
+			"date"		: "23 June 2012 21:45 UTC+03:00",
+			"team1"		: "1 group C",
+			"name1"		: "1 group C",
+			"match"		: 27,
+			"team2"		: "2 group D",
+			"name2"		: "2 group D",
+			"goals1"	: 0,
+			"goals2"	: 0,
+			"winner"	: null,
+			"stadium"	: "Donbass Arena, Donetsk"
+		},
+		{
+			"type"		: "match",
+			"group"		: "Q",
+			"date"		: "24 June 2012 21:45 UTC+03:00",
+			"team1"		: "2 group C",
+			"name1"		: "2 group C",
+			"match"		: 28,
+			"team2"		: "1 group D",
+			"name2"		: "1 group D",
+			"goals1"	: 0,
+			"goals2"	: 0,
+			"winner"	: null,
+			"stadium"	: "Olympic Stadium, Kiev"
+		},
+
+
+
+
+		{
+			"type"		: "match",
+			"group"		: "S",
+			"date"		: "27 June 2012 21:45 UTC+03:00",
+			"team1"		: "Winner Q1",
+			"name1"		: "Winner Q1",
+			"match"		: 29,
+			"team2"		: "Winner Q2",
+			"name2"		: "Winner Q2",
+			"goals1"	: 0,
+			"goals2"	: 0,
+			"winner"	: null,
+			"stadium"	: "Donbass Arena, Donetsk"
+		},
+		{
+			"type"		: "match",
+			"group"		: "S",
+			"date"		: "28 June 2012 20:45 UTC+02:00",
+			"team1"		: "Winner Q3",
+			"name1"		: "Winner Q3",
+			"match"		: 30,
+			"team2"		: "Winner Q4",
+			"name2"		: "Winner Q4",
+			"goals1"	: 0,
+			"goals2"	: 0,
+			"winner"	: null,
+			"stadium"	: "National Stadium, Warsaw"
+		},
+
+
+
+
+		{
+			"type"		: "match",
+			"group"		: "F",
+			"date"		: "1 July 2012 21:45 UTC+03:00",
+			"team1"		: "Winner S1",
+			"name1"		: "Winner S1",
+			"match"		: 31,
+			"team2"		: "Winner S2",
+			"name2"		: "Winner S2",
+			"goals1"	: 0,
+			"goals2"	: 0,
+			"winner"	: null,
+			"stadium"	: "Olympic Stadium, Kiev"
+		}
+	]
+}

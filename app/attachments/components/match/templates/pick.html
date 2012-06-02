@@ -1,0 +1,47 @@
+<div class="modal-header">
+	<a class="close" data-dismiss="modal">&times;</a>
+	<h1>Pick match</h1>
+</div>
+<% if (isLoggedIn) { %>
+<div class="modal-body">
+	
+	<form class="form-horizontal">
+		<fieldset class="row-fluid">
+			<div class="span5 team1">
+				<span class="flag flag-<%= match.team1.toLowerCase() %>"><%= match.name1 %></span>
+			</div>
+			<div class="span1 goals1"><input type="text" name="goals1" value="<%= pick.goals1 %>" /></div>
+			<div class="span1 goals2"><input type="text" name="goals2" value="<%= pick.goals2 %>" /></div>
+			<div class="span5 team2">
+				<span class="flag flag-<%= match.team2.toLowerCase() %>"><%= match.name2 %></span>
+			</div>
+		</fieldset>
+		
+		<fieldset class="result">
+			<label>
+				<span>Result:</span>
+				<select name="winner">
+					<option value="DRAW"<%= (pick.result === 'DRAW') ? ' selected="selected"' : '' %>>Draw</option>
+					<option value="<%= match.team1 %>"<%= (pick.result === match.team1) ? ' selected="selected"' : '' %>><%= match.name1 %></option>
+					<option value="<%= match.team2 %>"<%= (pick.result === match.team2) ? ' selected="selected"' : '' %>><%= match.name2 %></option>
+				</select>
+			</label>
+		</fieldset>
+		
+	</form>
+</div>
+<div class="modal-footer">
+	<a href="#" class="btn" data-dismiss="modal">Close</a>
+	<a href="#" class="btn btn-primary" data-loading-text="Saving...">Save</a>
+</div>
+	
+	
+	
+<% } else { %>
+<div class="modal-body">
+	<div class="alert alert-error">
+		<h3>You need to be logged in</h3>
+		<a href="#login" class="btn">Login now!</a>
+	</div>
+</div>
+<% } %> 

@@ -1,0 +1,142 @@
+div.match-list h3 {
+	margin: 13px 0 0 0;
+}
+
+div.match-list ul,
+div.match-list li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+div.match-list ul {
+	border-bottom: 1px solid #DDD;
+}
+
+div.match-list li {
+	padding: 4px;
+	border-top: 1px solid #DDD;
+}
+div.match-list li:nth-child(odd) {
+	background-color: #F9F9F9;
+}
+
+div.match-list a.icon-info-sign {
+	float: left;
+	margin: 3px 3px 0 0;
+}
+
+div.match-list span.match-goals {
+	margin: 0 6px 0 0;
+	padding-right: 2px;
+	line-height: 13px;
+	display: inline-block;
+}
+div.match-list span.match-goals span.goals {
+	font-size: 13px;
+	margin: 0 0 0;
+	display: inline-block;
+	position: relative;
+	top: 2px;
+}
+div.match-list span.match-goals .label {
+	font-size: 13px;
+	display: inline-block;
+	line-height: 13px;
+}
+
+div.match-list span.flag {
+	position: relative;
+	display: inline-block;
+	padding-left: 24px;
+	font-size: 13px;
+	vertical-align: middle;
+}
+div.match-list span.flag:after {
+	position: absolute;
+	left: -14px;
+	top: -16px;
+	-webkit-transform: scale(0.4);
+	-moz-transform: scale(0.4);
+	-o-transform: scale(0.4);
+	-ms-transform: scale(0.4);
+	transform: scale(0.4);
+}
+
+
+div.match-list span.date {
+	float: right;
+	color: #999;
+	font-weight: 800;
+	font-size: 18px;
+}
+
+
+
+
+table.match-list {
+	
+}
+
+table.match-list td.info {
+	font-size: 10px;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+table.match-list span.date {
+	font-weight: bold;
+}
+
+table.match-list a.info {
+	float: right;
+}
+
+table.match-list td.team {
+
+}
+
+table.match-list td.team1,
+table.match-list td.goals1 {
+	text-align: right;
+}
+
+table.match-list div.flag {
+	position: relative;
+}
+table.match-list td.team1 div.flag {
+	padding-right: 20px;
+}
+table.match-list td.team2 div.flag {
+	padding-left: 20px;
+}
+table.match-list div.flag:after {
+	position: absolute;
+	top: -16px;
+	-webkit-transform: scale(0.33);
+}
+table.match-list td.team1 div.flag:after {
+	right: -16px;
+}
+table.match-list td.team2 div.flag:after {
+	left: -16px;
+}
+
+
+table.match-list td.goals1,
+table.match-list td.goals2 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+table.match-list td.separator {
+	padding-left: 0;
+	padding-right: 0;
+	text-align: center;
+}
+
+
+table.match-list td.pick {
+	padding: 0;
+	text-align: center;
+}

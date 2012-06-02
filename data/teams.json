@@ -1,0 +1,23 @@
+{
+	"docs": [
+		{ "_id": "POL", "type": "team", "group": "A", "name": "Poland" },
+		{ "_id": "GRE", "type": "team", "group": "A", "name": "Greece" },
+		{ "_id": "RUS", "type": "team", "group": "A", "name": "Russia" },
+		{ "_id": "CZE", "type": "team", "group": "A", "name": "Czech Republic" },
+
+		{ "_id": "NED", "type": "team", "group": "B", "name": "Netherlands" },
+		{ "_id": "DEN", "type": "team", "group": "B", "name": "Denmark" },
+		{ "_id": "GER", "type": "team", "group": "B", "name": "Germany" },
+		{ "_id": "POR", "type": "team", "group": "B", "name": "Portugal" },
+
+		{ "_id": "ESP", "type": "team", "group": "C", "name": "Spain" },
+		{ "_id": "ITA", "type": "team", "group": "C", "name": "Italy" },
+		{ "_id": "IRL", "type": "team", "group": "C", "name": "Republic of Ireland" },
+		{ "_id": "CRO", "type": "team", "group": "C", "name": "Croatia" },
+
+		{ "_id": "UKR", "type": "team", "group": "D", "name": "Ukraine" },
+		{ "_id": "SWE", "type": "team", "group": "D", "name": "Sweden" },
+		{ "_id": "FRA", "type": "team", "group": "D", "name": "France" },
+		{ "_id": "ENG", "type": "team", "group": "D", "name": "England" }
+	]
+}

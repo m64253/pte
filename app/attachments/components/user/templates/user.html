@@ -1,0 +1,9 @@
+<div class="page-header">
+	<h1><%= user.name %></h1>
+</div>
+
+
+<% _.forEach(groupMatches, function (matcheList, group) { %>
+	<h2>Group <%= group %></h2>
+	<%= matcheList %>
+<% }); %>

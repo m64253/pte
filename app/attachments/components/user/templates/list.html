@@ -1,0 +1,9 @@
+<% _.forEach(users, function (user, i) { %>
+	<li>
+		<a href="#user/<%= user._id %>">
+			<span class="badge"><%= user.score %></span>
+			<span class="name"><%= user.name %></span>
+			<i class="icon-info-sign"></i>
+		</a>
+	</li>
+<% }); %>

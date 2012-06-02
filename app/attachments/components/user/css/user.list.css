@@ -1,0 +1,29 @@
+ul.user-list,
+ul.user-list li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul.user-list li {
+	margin-bottom: 4px;
+}
+ul.user-list a {
+	display: line-block;
+	padding: 0 2px;
+}
+ul.user-list a:hover {
+	text-decoration: none;
+}
+
+ul.user-list a:hover span.name {
+	text-decoration: underline;
+}
+
+ul.user-list span.badge {
+	
+}
+
+ul.user-list i.icon-info-sign {
+	
+}

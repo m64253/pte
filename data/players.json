@@ -1,0 +1,10 @@
+{
+	"docs": [
+		{ 
+			"type"		: "player",
+			"team"		: "ESP",
+			"name"		: "Xavi",
+			"goals"		: 0
+		}
+	]
+}

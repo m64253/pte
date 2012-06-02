@@ -1,0 +1,22 @@
+{
+	"docs": [
+		{ "type": "user", "name": "Nikos Beis", "picks": {} },
+		{ "type": "user", "name": "Mattias Lagerbäck", "picks": {} },
+		{ "type": "user", "name": "Martin", "picks": {} },
+		{ "type": "user", "name": "Eemil Bjornum", "picks": {} },
+		{ "type": "user", "name": "Mikael Abrahamsson", "picks": {} },
+		{ "type": "user", "name": "steneskog", "picks": {} },
+		{ "type": "user", "name": "Katarina S", "picks": {} },
+		{ "type": "user", "name": "Peter", "picks": {} },
+		{ "type": "user", "name": "Mikael Edvardsson", "picks": {} },
+		{ "type": "user", "name": "roger.bertilsson", "picks": {} },
+		{ "type": "user", "name": "Joachim Heiroth", "picks": {} },
+		{ "type": "user", "name": "Jakob Dobrzynski", "picks": {} },
+		{ "type": "user", "name": "Stefan", "picks": {} },
+		{ "type": "user", "name": "Birkan", "picks": {} },
+		{ "type": "user", "name": "Michael", "picks": {} },
+		{ "type": "user", "name": "de becke", "picks": {} },
+		{ "type": "user", "name": "Fredric Larsson", "picks": {} },
+		{ "type": "user", "name": "Olle Asplund", "picks": {} }
+	]
+}

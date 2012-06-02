@@ -1,0 +1,39 @@
+<div class="modal-header">
+	<a class="close" data-dismiss="modal">&times;</a>
+	<h1>Login</h1>
+</div>
+<% if (isLoggedIn) { %>
+<div class="modal-body">	
+	<div class="alert alert-error">
+		<h3>Already logged in <small>Please logout first</small></h3>
+		<a href="#logout" class="btn" data-dismiss="modal">logout now!</a>
+	</div>
+</div>
+<% } else { %>
+<div class="modal-body">
+	<% if (loginFailed) { %>
+	<div class="alert alert-error">
+		<a class="close" data-dismiss="alert">&times;</a>
+		<strong>Oh snap!</strong> Change a few things and try submitting again.
+	</div>
+	<% } %>
+	<form class="form-horizontal">
+		<div class="control-group">
+			<label class="control-label" for="userLoginName">Username</label>
+			<div class="controls">
+				<input type="text" class="input-xlarge" name="name" id="userLoginName" value="<%= name %>" />
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label" for="userLoginPassword">Password</label>
+			<div class="controls">
+				<input type="password" class="input-xlarge" name="password" id="userLoginPassword" value="<%= password %>" />
+			</div>
+		</div>
+	</form>
+</div>
+<div class="modal-footer">
+	<a href="#" class="btn" data-dismiss="modal">Close</a>
+	<a href="#" class="btn btn-primary" data-loading-text="Logging in...">Login</a>
+</div>
+<% } %> 

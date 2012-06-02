@@ -1,0 +1,38 @@
+table.match-standings {
+	
+}
+
+table.match-standings th.num {
+	width: 1em;
+}
+
+table.match-standings th.goals,
+table.match-standings th.admitted,
+table.match-standings th.diff,
+table.match-standings th.points {
+	width: 1.5em;
+}
+
+
+table.match-standings tr.standing-1 td.name,
+table.match-standings tr.standing-2 td.name {
+	font-weight: bold;
+}
+
+table.match-standings .goals,
+table.match-standings .admitted,
+table.match-standings .diff,
+table.match-standings .points {
+	text-align: right;
+}
+
+table.match-standings div.flag {
+	position: relative;
+	padding-left: 20px;
+}
+table.match-standings div.flag:after {
+	position: absolute;
+	left: -16px;
+	top: -16px;
+	-webkit-transform: scale(0.33);
+}

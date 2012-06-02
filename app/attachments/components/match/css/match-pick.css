@@ -1,0 +1,70 @@
+div.match-pick {
+	
+}
+
+div.match-pick fieldset {
+	margin-bottom: 26px;
+}
+
+div.match-pick div.team1 {
+	text-align: right;
+}
+
+div.match-pick div.team2 {
+	text-align: left;
+}
+
+div.match-pick span.flag {
+	position: relative;
+	display: inline-block;
+	padding: 0 36px;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+div.match-pick span.flag:after {
+	position: absolute;
+	top: -12px;
+	-webkit-transform: scale(0.55);
+	-moz-transform: scale(0.55);
+	-o-transform: scale(0.55);
+	-ms-transform: scale(0.55);
+	transform: scale(0.55);
+}
+
+div.match-pick div.team1 span.flag:after {
+	right: -11px;
+}
+div.match-pick div.team2 span.flag:after {
+	left: -11px;
+}
+
+
+
+div.match-pick div.goals1 {
+	text-align: right;
+}
+div.match-pick div.goals2 {
+	text-align: left;
+}
+
+div.match-pick div.goals1 input,
+div.match-pick div.goals2 input {
+	width: 1.231em;
+	text-align: center;
+}
+
+
+div.match-pick fieldset.result {
+	text-align: center;
+}
+div.match-pick.group-stage fieldset.result {
+	display: none;
+}
+
+div.match-pick label {
+	display: inline-block;
+}
+div.match-pick select {
+	width: auto;
+}

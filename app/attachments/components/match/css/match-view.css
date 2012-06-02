@@ -1,0 +1,47 @@
+
+div.match-view div.team1 {
+	text-align: right;
+}
+
+div.match-view div.team2 {
+	text-align: left;
+}
+
+div.match-view span.flag {
+	position: relative;
+	display: inline-block;
+	padding: 0 36px;
+	font-family: 'Luckiest Guy';
+	font-size: 26px;
+	line-height: 26px;
+}
+
+div.match-view span.flag:after {
+	position: absolute;
+	top: -17px;
+	-webkit-transform: scale(0.55);
+	-moz-transform: scale(0.55);
+	-o-transform: scale(0.55);
+	-ms-transform: scale(0.55);
+	transform: scale(0.55);
+}
+
+div.match-view div.team1 span.flag:after {
+	right: -11px;
+}
+div.match-view div.team2 span.flag:after {
+	left: -11px;
+}
+
+div.match-view div.goals1,
+div.match-view div.goals2 {
+	font-size: 26px;
+	font-weight: bold;
+}
+
+div.match-view div.goals1 {
+	text-align: right;
+}
+div.match-view div.goals2 {
+	text-align: left;
+}
